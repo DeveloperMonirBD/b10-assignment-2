@@ -40,7 +40,7 @@ p {
     font-size: 1rem;
     color: var(--secondary-text-color);
     line-height: 1.8rem;
-    margin: 20px 0;
+    margin: 24px 0;
 }
 
 a {
@@ -145,6 +145,10 @@ ul {
     color: #fff;
 }
 
+.ham-burger {
+    display: none;
+}
+
 /* header section */
 
 
@@ -167,6 +171,7 @@ header {
     margin-top: 20px;
     font-size: 4rem;
 }
+
 .dancing-font {
     font-family: 'Dancing Script', cursive;
     font-size: 78px;
@@ -178,7 +183,6 @@ header {
 }
 
 .header-button {
-    display: flex;
     gap: 14px;
 }
 
@@ -186,6 +190,7 @@ header {
     max-width: 349px;
     max-height: 580px;
 }
+
 .header-right img {
     width: 100%;
 }
@@ -204,7 +209,8 @@ header {
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
 }
-.video-cicle {
+
+.video-circle {       
     width: 38px;
     height: 38px;
     background-color: var(--accent-color);
@@ -216,6 +222,7 @@ header {
     margin: 0;
     font-weight: 400;   
 }
+
 .video-content h2 {
     font-size: 1.5rem;
     font-weight: 900;   
@@ -242,10 +249,12 @@ header {
     margin: 0;
     font-weight: 900;  
 }
+
 .workout-content p{
     font-size: 12px;
     margin: 0;   
 }
+
 .play-icon {
     position: absolute;
     top: 300px;
