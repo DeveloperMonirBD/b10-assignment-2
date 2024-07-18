@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:slnt,wght@-10..0,100..900&display=swap');
+
+/* resets */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #efede8;
+    --bg-dark-color: #000000;
+    --accent-color: #e6533c;
+    --accent-color-dark: #b93d2a;
+    --padding-inline-section: 20px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--primary-text-color);
+    background-color: var(--bg-dark-color);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+/* utility classes */
+.small-bold-text {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.container {
+    max-width: 1440px;
+    /* margin: 0 auto; */
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.hover-link {
+    color: var(--primary-text-color);
+    transition: 0.2s ease-in-out;
+}
+
+.hover-link:hover {
+    color: var(--accent-color);
+}
+
+.primary-button {
+    background-color: var(--accent-color);
+    border-radius: 42px;
+    font-weight: 600;
+    color: #fff !important;
+    padding: 16px 40px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: 0.2s ease-in-out;
+}
+
+.primary-button:hover {
+    background-color: var(--accent-color-dark);
+}
+
+.secondary-button {
+    border: 0.5px solid var(--secondary-text-color);
+    border-radius: 42px;
+    font-weight: 600;
+    color: var(--primary-text-color);
+    padding: 16px 40px;
+    transition: 0.2s ease-in-out;
+}
+
+.secondary-button:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color) !important;
+}
+
