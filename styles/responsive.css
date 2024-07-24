@@ -146,17 +146,17 @@
 
     .workout-section {
         top: 46%;
-        right: 6%;
+        right: 4%;
     }
 
     .video-section {
         top: 68%;
-        right: 49%;
+        right: 45%;
     }
 
     .play-icon {
-        top: 70%;
-        right: 50%;
+        top: 71.5%;
+        right: 80.5%;
     }
 
     /* Training and Exercises */
@@ -200,3 +200,116 @@
     }
 }
 
+/* Responsive Medium Device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    h1 {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    h2 {
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 3.5rem;
+    }
+
+    .header-button {
+        justify-content: center;
+    }
+
+    .ham-burger {
+        display: none;
+    }
+
+    .header-section,
+    .bmi-content,
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-logo-content {
+        width: 95%;
+    }
+
+    .footer-logo-content p {
+        width: 50%;
+    }
+
+    .footer-link-content {
+        width: 95%;
+        justify-content: start;
+        margin-top: 2rem;
+    }
+
+    .bmi-content {
+        gap: 3rem;
+    }
+
+    .bmi-title {
+        margin-left: 0;
+    }
+
+    .calculate-your-bmi {
+        text-align: start;
+        max-width: 100%;
+    }
+
+    table caption {
+        font-size: 1.6rem;
+        color: var(--primary-text-color);
+        margin-bottom: 2rem;
+        text-align: start;
+    }
+
+    .workout-section {
+        top: 52%;
+        right: 25%;
+    }
+
+    .video-section {
+        top: 79%;
+        right: 53%;
+    }
+
+    .play-icon {
+        top: 73%;
+        right: 73%;
+    }
+
+    .header-left {
+        max-width: 100%;
+        padding-left: 2rem;
+    }
+
+    .your-habit-content {
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+
+    /* Training and exercises */
+    .training-item p {
+        top: 60%;
+        left: 10%;
+    }
+
+    .training-item-2 p {
+        top: 1%;
+    }
+
+    .training-item-4 p {
+        top: 5%;
+        left: 40%;
+    }
+
+    /* Meet Our Team */
+    .team-item h4 {
+        top: 60%;
+        left: 15%;
+    }
+
+    /* Run an Extra Mile Easily */
+    .extra-mile-img {
+        max-width: 100%;
+        margin-left: 2rem;
+    }
+}
