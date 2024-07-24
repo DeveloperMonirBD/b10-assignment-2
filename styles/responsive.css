@@ -1,6 +1,14 @@
+/* Responsive Mobile/Small Device */
 @media screen and (max-width: 576px) {
-    .nav-links {
-        display: none;
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+
+    h2 {
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 3.5rem;
     }
 
     .ham-burger {
@@ -11,8 +19,105 @@
         font-size: 26px;
     }
 
-    .header-section {
+    .nav-links {
+        display: none;
+    }
+
+    .header-button {
+        justify-content: center;
+    }
+
+    .header-section,
+    .extra-mile-content,
+    .bmi-content,
+    .footer-container,
+    .footer-link-content {
         flex-direction: column;
+    }
+
+    .your-habit-content {
+        grid-template-columns: 1fr;
+    }
+
+    .extra-mile-content {
+        padding: 20px;
+    }
+
+    .bmi-content {
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .bmi-calculator-cart,
+    .calculate-your-bmi {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        max-width: 100%;
+    }
+    .bmi-form input[type='submit'] {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .table caption {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+
+    .extra-mile,
+    .getstarted1,
+    .getstarted2,
+    .extra-mile-img {
+        width: 100%;
+    }
+
+    .footer-logo-content,
+    .footer-link-content {
+        width: 95%;
+    }
+
+    .getstarted1,
+    .getstarted2 {
+        margin-top: 3rem;
+    }
+
+    .extra-mile a {
+        width: 100%;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    /* Run an Extra Mile Easily */
+    .extra-mile-img {
+        max-width: 100%;
+    }
+
+    .training-content1 {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .training-content2 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .bmi-title {
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .our-team-content {
+        grid-template-columns: 1fr;
+    }
+
+    .habit-item {
+        margin-bottom: 1rem;
+    }
+
+    .habit-item img {
+        margin-bottom: 5px;
     }
 
     .header-left {
@@ -27,11 +132,6 @@
         font-size: 3rem;
     }
 
-    .header-button {
-        /* flex-direction: column;
-        justify-content: center;
-        width: 100%; */
-    }
     .primary-button {
         font-weight: 400;
         padding: 16px 24px;
@@ -43,30 +143,60 @@
         padding: 16px 24px;
         font-size: 16px;
     }
+
     .workout-section {
-        top: 430px;
-        right: 10px;
-        padding: 8px 20px;
+        top: 46%;
+        right: 6%;
     }
 
-    .workout-content h1 {
-        font-size: 1.5rem;
-        margin: 0;
-        font-weight: 900;
-    }
     .video-section {
-        top: 650px;
-        right: 165px;
-        padding: 12px 20px;
-    }
-
-    .video-content h2 {
-        font-size: 1.2rem;
-        font-weight: 900;
+        top: 68%;
+        right: 49%;
     }
 
     .play-icon {
-        top: 680px;
-        right: 315px;
+        top: 70%;
+        right: 50%;
+    }
+
+    /* Training and Exercises */
+    .training-content:nth-child(1) {
+        grid-column: 1/9;
+    }
+
+    .training-content:nth-child(2) {
+        grid-column: 9/17;
+    }
+
+    .training-content:nth-child(3) {
+        display: none;
+    }
+
+    .training-content:nth-child(4) {
+        grid-column: 1/8;
+    }
+
+    .training-content:nth-child(5) {
+        grid-column: 8/17;
+    }
+
+    .training-content:nth-child(6) {
+        display: none;
+    }
+
+    .training-item p {
+        font-size: 12px;
+        top: 50%;
+        left: 10%;
+    }
+
+    .training-item-2 p {
+        top: 0%;
+    }
+
+    /* Meet Our Team */
+    .dianne-russel p {
+        top: 60%;
     }
 }
+
