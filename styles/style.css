@@ -337,6 +337,8 @@ header {
 .habit-item img {
     border-radius: 50%;
     border: 4px solid var(--secondary-bg-color);
+    object-fit: cover;
+    object-position: 50% 50%;
 }
 
 .habit-item h4 {
@@ -412,6 +414,7 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: 50% 50%;
 }
 
 .training-item {
@@ -578,6 +581,7 @@ select {
     height: 100%;
     border-radius: 18px;
     object-fit: cover;
+    object-position: 50% 50%;
     filter: brightness(70%);
 }
 
