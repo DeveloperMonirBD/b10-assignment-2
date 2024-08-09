@@ -90,8 +90,18 @@
     }
 
     /* Run an Extra Mile Easily */
+
+    .extra-wrapper {
+        width: 325px;
+        height: 200px;
+    }
+
     .extra-mile-img {
-        max-width: 100%;
+        transform: translate(-50px, 30px);
+    }
+
+    .extra-mile-img img {
+        transform: scale(1.6);
     }
 
     .training-content1 {
@@ -151,7 +161,7 @@
 
     .video-section {
         top: 68%;
-        right: 45%;
+        right: 47%;
     }
 
     .play-icon {
@@ -308,8 +318,26 @@
     }
 
     /* Run an Extra Mile Easily */
+
+    .extra-mile p {
+        margin-bottom: 4px;
+    }
+
+    .extra-mile h2 {
+        line-height: 2.2rem;
+    }
+
+    .extra-wrapper {
+        width: 256px;
+        height: 319px;
+    }
+
     .extra-mile-img {
-        max-width: 100%;
-        margin-left: 2rem;
+        width: 100%;
+        transform: translate(-130px, 140px);
+    }
+
+    .extra-mile-img img {
+        transform: scale(3.8);
     }
 }
