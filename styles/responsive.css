@@ -125,7 +125,7 @@
     /* Run an Extra Mile Easily */
 
     .extra-wrapper {
-        width: 350px;
+        width: 345px;
         height: 230px;
     }
 
@@ -153,12 +153,21 @@
 
     .our-team-content {
         grid-template-columns: 1fr;
+        padding: 24px 20px;
     }
 
     .team-item {
         max-width: 430px;
-        max-height: 260px;
+        height: 460px;
     }
+
+    .team-item h4 {
+        top: 65%;
+        left: 10%;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
 
     .habit-item {
         margin-bottom: 1rem;
@@ -242,10 +251,7 @@
         top: 0%;
     }
 
-    /* Meet Our Team */
-    .dianne-russel p {
-        top: 60%;
-    }
+    
 }
 
 /* Responsive Medium Device */
@@ -350,9 +356,20 @@
     }
 
     /* Meet Our Team */
+
+    .team-item {
+        max-width: 340px;
+        height: 860px;
+    }
+
     .team-item h4 {
         top: 60%;
-        left: 15%;
+        left: 10%;
+    }
+
+    .team-item h4 {
+        top: 68%;
+        font-size: 16px;
     }
 
     /* Run an Extra Mile Easily */
@@ -367,7 +384,7 @@
 
     .extra-wrapper {
         width: 256px;
-        height: 319px;
+        height: 419px;
     }
 
     .extra-mile-img {

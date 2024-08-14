@@ -598,10 +598,18 @@ select {
     filter: brightness(70%);
 }
 
-.team-item p {
+.team-item h4 {
     position: absolute;
     color: #fff;
-    font-size: 14px;
+    font-size: 20px;
+    top: 68%;
+    left: 10%;
+}
+
+.team-item p {
+    position: absolute;
+    color: #d8d7d7be;
+    font-size: 1.2rem;
     top: 70%;
     left: 10%;
 }
