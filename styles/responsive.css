@@ -73,7 +73,7 @@
     }
 
     .extra-mile-content {
-        padding: 10px;
+        padding: 20px;
     }
 
     .bmi-content {
@@ -125,12 +125,12 @@
     /* Run an Extra Mile Easily */
 
     .extra-wrapper {
-        width: 370px;
-        height: 260px;
+        width: 350px;
+        height: 230px;
     }
 
     .extra-mile-img {
-        transform: translate(-60px, 60px);
+        transform: translate(-50px, 40px);
     }
 
     .extra-mile-img img {
@@ -156,7 +156,7 @@
     }
 
     .team-item {
-        max-width: 440px;
+        max-width: 430px;
         max-height: 260px;
     }
 

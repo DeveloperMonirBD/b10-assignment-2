@@ -587,7 +587,6 @@ select {
     max-width: 340px;
     max-height: 260px;
     position: relative;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .team-item img {
