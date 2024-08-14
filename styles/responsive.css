@@ -1,5 +1,8 @@
 /* Responsive Mobile/Small Device */
 @media screen and (max-width: 576px) {
+    :root {
+        --padding-inline-section: 10px;
+    }
     h1 {
         font-size: 2.5rem;
         font-weight: 800;
@@ -19,8 +22,32 @@
         font-size: 26px;
     }
 
+    .main-nav {
+        overflow: inherit;
+        margin: 10px;
+    }
+
     .nav-links {
-        display: none;
+        position: absolute;
+        top: 110%;
+        left: -150%;
+        width: 100%;
+        background: orangered;
+        padding: 24px;
+        z-index: 1;
+        transition: 0.2s ease-in-out;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .nav-links .home {
+        padding: 0;
+    }
+    .nav-links.active {
+        left: 0;
     }
 
     .header-button {
