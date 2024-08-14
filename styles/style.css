@@ -189,6 +189,7 @@ section {
     flex-basis: 465px;
     padding: 16px 38px 16px 6px;
     border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 39px;
 }
 
@@ -586,6 +587,7 @@ select {
     max-width: 340px;
     max-height: 260px;
     position: relative;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .team-item img {
