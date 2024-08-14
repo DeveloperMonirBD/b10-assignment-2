@@ -52,6 +52,10 @@
         background-color: transparent;
     }
 
+    .hover-link:hover {
+    color: #000;
+}
+
     .nav-links.active {
         left: 0;
     }
@@ -168,7 +172,6 @@
         font-weight: 600;
     }
 
-
     .habit-item {
         margin-bottom: 1rem;
     }
@@ -250,8 +253,6 @@
     .training-item-2 p {
         top: 0%;
     }
-
-    
 }
 
 /* Responsive Medium Device */
